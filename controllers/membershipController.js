@@ -2,7 +2,7 @@
 // update member status
 
 
-const {Membership} = require('../models/Membership');
+const Membership = require('../models/Membership');
 // const MembershipSchema = require("../models/Membership")
 
 const applyForMembership = async (req, res) => {

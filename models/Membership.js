@@ -32,9 +32,10 @@ const membershipSchema = new Schema({
 }, { timestamps: true });
 
 // Create Membership model
-const Membership = mongoose.model('Membership', membershipSchema);
+// const Membership = mongoose.model('Membership', membershipSchema);
 
-module.exports = { Membership, membershipSchema };
+// module.exports = { Membership, membershipSchema };
+module.exports = mongoose.model('Membership', membershipSchema);
 
 
 
